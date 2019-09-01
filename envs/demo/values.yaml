@@ -36,6 +36,14 @@ example-voting-app-result:
 
 redis:
   usePassword: false
+  master:
+    persistence:
+      size: 100Mi
+  slave:
+    persistence:
+      size: 100Mi
 
-posgresql:
+postgresql:
   postgresqlPassword: uoJ8gAt02p
+  persistence:
+    size: 100Mi
