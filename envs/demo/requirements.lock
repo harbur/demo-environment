@@ -1,0 +1,6 @@
+dependencies:
+- name: example-voting-app
+  repository: https://chartmuseum.pro.harbur.io
+  version: 1.0.4
+digest: sha256:15e67cd7672aab8ad105283aa91d21394db73486ef1741f16adf95474f887737
+generated: "2019-09-01T19:27:42.84447+02:00"

@@ -1,0 +1,4 @@
+dependencies:
+  - name: example-voting-app
+    version: 1.0.4
+    repository: "@chartmuseum"
