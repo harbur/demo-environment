@@ -1,6 +1,18 @@
 dependencies:
-- name: example-voting-app
+- name: example-voting-app-vote
   repository: https://chartmuseum.pro.harbur.io
-  version: 1.0.4
-digest: sha256:15e67cd7672aab8ad105283aa91d21394db73486ef1741f16adf95474f887737
-generated: "2019-09-01T19:27:42.84447+02:00"
+  version: 0.1.0
+- name: example-voting-app-result
+  repository: https://chartmuseum.pro.harbur.io
+  version: 0.1.0
+- name: example-voting-app-worker
+  repository: https://chartmuseum.pro.harbur.io
+  version: 0.1.0
+- name: redis
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 9.1.3
+- name: postgresql
+  repository: https://kubernetes-charts.storage.googleapis.com
+  version: 6.3.2
+digest: sha256:634ed44a0f8c13b4c28f8ddcd90d542011014474fd7c5729883bcc363ca2dc22
+generated: "2019-09-01T23:15:17.663768+02:00"
