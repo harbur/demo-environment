@@ -5,13 +5,13 @@ example-voting-app-vote:
       kubernetes.io/ingress.class: nginx
       kubernetes.io/tls-acme: "true"
     hosts:
-      - host: vote-demo.pro.harbur.io
+      - host: vote.pro.harbur.io
         paths:
         - /
     tls:
-    - secretName: vote-demo.pro.harbur.io-tls
+    - secretName: vote.pro.harbur.io-tls
       hosts:
-      - vote-demo.pro.harbur.io
+      - vote.pro.harbur.io
 
 example-voting-app-worker:
   db:
@@ -26,13 +26,13 @@ example-voting-app-result:
       kubernetes.io/ingress.class: nginx
       kubernetes.io/tls-acme: "true"
     hosts:
-      - host: result-demo.pro.harbur.io
+      - host: result.pro.harbur.io
         paths:
         - /
     tls:
-    - secretName: result-demo.pro.harbur.io-tls
+    - secretName: result.pro.harbur.io-tls
       hosts:
-      - result-demo.pro.harbur.io
+      - result.pro.harbur.io
 
 redis:
   usePassword: false
