@@ -13,13 +13,7 @@ example-voting-app-vote:
       hosts:
       - vote-demo.pro.harbur.io
 
-example-voting-app-worker:
-  db:
-    password: uoJ8gAt02p
-
 example-voting-app-result:
-  db:
-    password: uoJ8gAt02p
   ingress:
     enabled: true
     annotations:
@@ -35,7 +29,6 @@ example-voting-app-result:
       - result-demo.pro.harbur.io
 
 redis:
-  usePassword: false
   master:
     persistence:
       size: 100Mi
@@ -44,6 +37,5 @@ redis:
       size: 100Mi
 
 postgresql:
-  postgresqlPassword: uoJ8gAt02p
   persistence:
     size: 100Mi
